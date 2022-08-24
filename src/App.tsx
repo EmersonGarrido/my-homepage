@@ -2,42 +2,42 @@ import React from "react";
 
 const contactList = [
   {
-    platform: 'Whatsapp',
-    url: 'https://wa.me/5567993109148?text=Ola, tudo bem? vim pelo seu site.',
-    icon: 'whatsapp',
-    disabled: false
+    platform: "Whatsapp",
+    url: "https://wa.me/5567993109148?text=Ola, tudo bem? vim pelo seu site.",
+    icon: "whatsapp",
+    disabled: false,
   },
   {
-    platform: 'Facebook',
-    url: 'https://www.facebook.com/oemersongarrido/',
-    icon: 'facebook',
-    disabled: false
+    platform: "Facebook",
+    url: "https://www.facebook.com/oemersongarrido/",
+    icon: "facebook",
+    disabled: false,
   },
   {
-    platform: 'Instagram',
-    url: 'https://instagram.com/emersongarrido.dev',
-    icon: 'instagram',
-    disabled: false
+    platform: "Instagram",
+    url: "https://instagram.com/emersongarrido.dev",
+    icon: "instagram",
+    disabled: false,
   },
   {
-    platform: 'Linkedin',
-    url: 'https://www.linkedin.com/in/emersongarrido/',
-    icon: 'linkedin',
-    disabled: false
+    platform: "Linkedin",
+    url: "https://www.linkedin.com/in/emersongarrido/",
+    icon: "linkedin",
+    disabled: false,
   },
   {
-    platform: 'Github',
-    url: 'https://github.com/EmersonGarrido',
-    icon: 'github',
-    disabled: false
+    platform: "Github",
+    url: "https://github.com/EmersonGarrido",
+    icon: "github",
+    disabled: false,
   },
   {
-    platform: 'Blog pessoal',
-    url: '',
-    icon: 'blog',
-    disabled: true
-  }
-]
+    platform: "Blog pessoal",
+    url: "https://blog.emersongarrido.com.br",
+    icon: "blog",
+    disabled: false,
+  },
+];
 
 const App: React.FC = () => {
   return (
