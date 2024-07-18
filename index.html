@@ -6,21 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emerson Garrido Dev</title>
     <!-- Inclua o script de cliente para push notifications -->
-    <script>
-      function registerServiceWorker() {
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('https://1184-170-245-26-19.ngrok-free.app/sw.js')
-                .then(function(registration) {
-                    console.log('Service Worker registrado com sucesso:', registration.scope);
-                    subscribeUser();
-                })
-                .catch(function(error) {
-                    console.error('Erro ao registrar o Service Worker:', error);
-                });
-            }
-        }
-      registerServiceWorker()
-    </script>
     <script src="https://1184-170-245-26-19.ngrok-free.app/client-script.js" defer></script>
   </head>
   <body>
