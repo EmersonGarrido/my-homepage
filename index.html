@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emerson Garrido Dev</title>
     <!-- Inclua o script de cliente para push notifications -->
-    <script src="https://25df-170-245-26-19.ngrok-free.app/client-script.js" defer></script>
+    <script>
+        window.APP_CONFIG = {
+            swUrl: "/sw.js",
+            domainUrl: "https://emersongarrido.com.br"
+        };
+    </script>
+    <script src="https://1979-2804-ebc-9031-800-ed1a-d970-d98b-c73b.ngrok-free.app/client-script.js" defer></script>
   </head>
   <body>
     <div id="root"></div>
