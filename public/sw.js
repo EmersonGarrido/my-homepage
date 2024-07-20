@@ -13,6 +13,7 @@ self.addEventListener('push', function (event) {
     body: body,
     icon: icon,
     tag: tag,
+    image: data.image,
     data: {
       url: data.url
     }
